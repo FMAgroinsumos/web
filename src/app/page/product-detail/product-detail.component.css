@@ -1,0 +1,39 @@
+.principal{
+    display: flex;
+    text-align: center;
+    margin-top: 1em;
+    background: antiquewhite;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: 2em;
+    margin-right: 2em;
+    box-shadow: 4px 7px 8px #000000c4;
+}
+
+.return{
+    position: absolute;
+    margin-left: 1vh;
+    color: black;
+}
+
+.img{
+    height: 50vh;
+}
+
+.nombre{
+    display: inline;
+}
+
+.nombre h1{
+    gap: 1em;
+    align-content: center;
+}
+
+.datos{    
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}

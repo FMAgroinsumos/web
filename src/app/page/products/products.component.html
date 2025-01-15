@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="card mb-3" style="max-width: 540px;" *ngFor="let product of productList">
+    <div class="row g-0">
+      <div class="col-md-4 imgCont">
+        <img src={{product.img}} class="img-fluid rounded-start imgP" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title text-success">{{product.name}}</h5>
+          <p class="card-text">{{product.descripcionCrt}}</p>
+          <div class="d-grid gap-2">
+            <a><button type="button" class="btn btnStyle btn-outline-success" [routerLink]="['/products', product.id]">Saber Más..</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

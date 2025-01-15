@@ -1,0 +1,13 @@
+.nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.nav2{
+    width: 100%;
+}
+
+.contact{
+    margin-bottom: 0px;
+}

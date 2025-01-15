@@ -1,0 +1,29 @@
+@media (max-width: 600px) { 
+    .sobreNosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+}
+@media (min-width: 601px) { 
+    .sobreNosotros{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+.container{
+    padding-top: 1em;
+}
+
+.navbar{
+    background-color: aquamarine;
+}
+
+
+
+.ws{
+    padding: 1em;
+    justify-content: end;
+    display: flex
+;
+}
